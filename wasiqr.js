@@ -59,23 +59,26 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By FEARLESS*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『 AMAZING YOU'VE CHOSEN ZENITSU CRASH V2 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _https://www.youtube.com/@BTSMODZ
-║❒ *Owner:* https://wa.me/2348075952205_
-║❒ *Repo:* _https://github.com/Fearless-tech1_
-║❒ *WaGroup:* _https://chat.whatsapp.com/C3GFThC0tIpGaJY9DFUeCK
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VahusSh0QeaoFzHJCk2x
-║❒ *Plugins:* _https://github.com/Fearless-tech1 
-╚════════════════════════╝
-_____________________________________
+🐼🍓-𝐙𝐄𝐑𝐎𝐗 𝐌𝐃-🐼❤️‍🩹 𝐁𝐎𝐓 𝐏𝐀𝐈𝐑
+
+*┏━━━━━━━━━━━━━━*
+*┃𝐙𝐄𝐑𝐎𝐗-𝐌𝐃 SESSION IS*
+*┃SUCCESSFULLY*
+*┃CONNECTED ✅🔥*
+*┗━━━━━━━━━━━━━━━*
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❶ || Creator = 𝙼𝚁  𝙽𝙰𝙳𝙸𝙻 𝙷𝙰𝙽𝚂𝙰𝙹𝙰👨🏻‍💻✅*
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029Vb8n2cA9mrGioPDAcJ1W
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❸ || Owner =* https://wa.me/+94740952053
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ *➍ ||  Telegram =* https://t.me/+0Fu4_dlsBUMyOGE1
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+*❸ || Youtube =* https://www.youtube.com/@EXDEVILGAMING-FF
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*🧚‍♀️ᴄʀᴇᴀᴛᴇᴅ ʙʏ ©ᴍʀ ɴᴀᴅɪʟ🐼🍓*
 	
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
